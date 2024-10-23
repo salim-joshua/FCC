@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #10192e;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  h1 {
+    color: #eee;
+  }
+  
+  #search-form {
+    color: #eee;
+    background-color: #21293d;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #704180;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #search-label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #search-input {
+    padding: 12px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e9daed;
+  }
+  
+  #search-button {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: none;
+    background-color: #7d3194;
+    color: #eee;
+  }
+  
+  #pokemon-card {
+    background-color: #f4f2f5;
+    color: #171617;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 0 #ccc4cf;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 500px;
+  }
+  
+  .name-and-id {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 5px 0;
+    border-bottom: 4px solid #7d3194;
+    margin-bottom: 10px;
+    min-height: 52px;
+    text-transform: uppercase;
+  }
+  
+  .height-and-weight {
+    font-weight: 600;
+    color: #4b484d;
+    min-height: 18px;
+  }
+  
+  #pokemon-img-container {
+    text-align: center;
+    min-height: 180px;
+  }
+  
+  #sprite {
+    width: 180px;
+  }
+  
+  #types {
+    margin-bottom: 10px;
+    min-height: 14px;
+    text-transform: uppercase;
+  }
+  
+  .type {
+    background-color: #21293d;
+    color: #eee;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+  }
+  
+  .stats-table table {
+    width: 100%;
+  }
+  
+  .stats-table td, .stats-table th {
+    text-align: center;
+    background-color: #7d3194;
+    color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+  }

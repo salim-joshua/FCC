@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Search App</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>Pokémon Search App</h1>
+      <div id="container">
+        <div id="search-bar">
+          <form id="search-form">
+            <label id="search-label" for="search-input">Search for Pokémon Name or ID:</label>
+            <input type="text" class="input-fields" id="search-input" name="search-input" required>
+            <button id="search-button">Search</button>
+          </form>
+        </div>
+        <div id="pokemon-card">
+          <div class="name-and-id">
+            <span id="pokemon-name"></span>
+            <span id="pokemon-id"></span>
+          </div>
+          <div class="height-and-weight">
+            <span id="weight"></span>
+            <span id="height"></span>
+          </div>
+          <div id="pokemon-img-container">
+            <!-- IMG GOES HERE -->
+          </div>
+          <div id="types">
+            <!-- TPYE SPANS GO HERE -->
+          </div>
+          <div class="stats-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Base</th>
+                  <th>Stats</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>HP:</td>
+                  <td id="hp"></td>
+                </tr>
+                <tr>
+                  <td>Attack:</td>
+                  <td id="attack"></td>
+                </tr>
+                <tr>
+                  <td>Defense:</td>
+                  <td id="defense"></td>
+                </tr>
+                <tr>
+                  <td>Sp. Attack:</td>
+                  <td id="special-attack"></td>
+                </tr>
+                <tr>
+                  <td>Sp. Defense:</td>
+                  <td id="special-defense"></td>
+                </tr>
+                <tr>
+                  <td>Speed:</td>
+                  <td id="speed"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register App</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="columns">
+        <div id="desc-column">
+          <h1>Cash Register</h1>
+        </div>
+        <div id="price-column">
+          <p>Total: $<span id="random-price"></span></p>
+        </div>
+        <div id="change-due">
+          <!-- CHANGE DUE GOES HERE -->
+        </div>
+        <div id="input-column">
+          <label for="cash">Enter cash from customer</label>
+          <input type="number" id="cash" name="cash" />
+        </div>
+        <div id="button-column">
+          <button id="purchase-btn">Purchase
+          </button>
+        </div>
+        <div id="cid-div">
+          <!-- CID GOES HERE -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

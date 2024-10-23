@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    background-color: #1a1e29;
+    color: #eee;
+  }
+  
+  .container {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    gap: 20px;
+  }
+  
+  h1 {
+    color: white;
+    border-bottom: 3px solid #ff9442;
+    padding: 7px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  #price-column {
+        border: 3px solid #ff9442;
+        min-width: 300px;
+  }
+
+  #price-column p {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  #input-column,
+  #desc-column, #button-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  label {
+    display: block;
+    font-size: 20px;
+  }
+  
+  #cash {
+    background-color: #0b131f;
+    padding: 20px 30px;
+    min-width: 300px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #ffffff77;
+  }
+  
+  #purchase-btn {
+    background-color: #ff9442;
+    border: none;
+    padding: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1.1;
+    cursor: pointer;
+  }
+  
+  #clear-btn {
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 17px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1.1;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  #clear-btn:hover {
+    background-color: white;
+    border: 3px solid white;
+    padding: 17px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    color: #1a1e29;
+    font-weight: 800;
+    letter-spacing: 1.1;
+    cursor: pointer;
+  }
+  
+  #cid-div {
+    font-size: 18px;
+    padding: 25px;
+  }
